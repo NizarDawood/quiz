@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: #ffeb99;
+}
+#quiz-container {
+    margin-top: 20px;
+}
+.option {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #444;
+    color: #ffeb99;
+}
+.correct {
+    background-color: lightgreen;
+}
+#status {
+    margin-top: 20px;
+    font-size: 18px;
+}
